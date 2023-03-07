@@ -46,6 +46,7 @@ const worker = await getWorker();
 worker.postMessage("READY");
 
 const camera = await Camera.init();
+const [rootPath] = window.location.href.split('/pages/');
 
 const factory = {
     async initialize() {
@@ -53,6 +54,7 @@ const factory = {
             view: new View(),
             worker,
             camera,
+            videoUrl: `${rootPath}/assets/video.mp4`
         })
     }
 }
