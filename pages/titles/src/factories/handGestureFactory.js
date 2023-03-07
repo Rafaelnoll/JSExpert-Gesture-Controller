@@ -10,13 +10,15 @@ import HandGestureController from "../controllers/handGestureController.js"
 import Camera from "../../../../lib/shared/camera.js"
 import { fingerLookupIndexes, knownGestures, gestureStrings } from "../util/util.js"
 
+const styler = new PseudoStyler();
 const camera = await Camera.init();
 
 const factory = {
     async initialize() {
         return HandGestureController.initialize({
             view: new HandGestureView({
-                fingerLookupIndexes
+                fingerLookupIndexes,
+                styler
             }),
             service: new HandGestureService({
                 fingerpose: window.fp,

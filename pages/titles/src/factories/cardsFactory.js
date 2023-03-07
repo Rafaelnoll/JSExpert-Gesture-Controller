@@ -1,3 +1,4 @@
+import '../../lib/sdk.js';
 import CardsController from "./../controllers/cardsController.js"
 import CardsView from "./../views/cardsView.js"
 import CardsService from "./../services/cardsService.js"
@@ -9,7 +10,7 @@ const factory = {
   async initialize() {
     return CardsController.initialize({
       view: new CardsView(),
-      service: new CardsService({ 
+      service: new CardsService({
         dbUrl: `${rootPath}/assets/database.json`,
         cardListWorker,
       })
