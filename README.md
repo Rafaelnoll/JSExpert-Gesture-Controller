@@ -31,7 +31,7 @@ This project was done during the seventh Javascript Expert Week of @ErickWendel,
         - https://blog.tensorflow.org/2020/03/introducing-webassembly-backend-for-tensorflow-js.html
   
 ### Credits to Layout
-- Interface baseada no projeto [Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) de [gunnarhawk](https://github.com/Gunnarhawk)
+- Interface based in the project[Streaming Service](https://codepen.io/Gunnarhawk/pen/vYJEwoM) of [gunnarhawk](https://github.com/Gunnarhawk)
 
 ## Live Demo
-- Para testar o projeto final [clique aqui](https://rafaelnoll.github.io/JSExpert-Gesture-Controller/)
+- To test the final project [click here](https://rafaelnoll.github.io/JSExpert-Gesture-Controller/)
