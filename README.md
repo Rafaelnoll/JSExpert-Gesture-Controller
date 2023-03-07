@@ -3,7 +3,7 @@
 This project was done during the seventh Javascript Expert Week of @ErickWendel, and in it we can control the site with just hand movements using a web cam.
 
 ## Preview
-<img width=100% src="./initial-template/assets/demo-template-lg.gif">
+<img width=100% src="./assets/demo-template-lg.gif">
 
 ## Pre-reqs
 - This project was created using Node.js v19.6
